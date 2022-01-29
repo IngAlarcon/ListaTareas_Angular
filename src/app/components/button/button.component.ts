@@ -17,7 +17,7 @@ export class ButtonComponent implements OnInit {
 
   //Funcion click
   onclick(){
-    console.log("Se hizo click!")
+    console.log("Se hizo click! mnj desde button,component hijo")
     this.btnClick.emit();
   }
 

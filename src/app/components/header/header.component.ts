@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   }
 
   toggleAddTask(){
-    console.log("Mensaje Recibido!!!")
+    console.log("Mensaje Recibido!!! desde el header padre")
   }
 
 }
