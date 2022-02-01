@@ -1,0 +1,40 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "text": "Terminar primer modulo de Angular",
+            "day": "Agosto 5 a las 12:00 am",
+            "reminder": true
+    
+        },
+        {
+            "id": 2,
+           "text": "Hacer las compras para cenar",
+            "day": "Agosto 5 a las 17:00 pm",
+           "reminder": true
+    
+        },
+        {
+            "id": 3,
+           "text": "Investigar sobre Boostrap",
+            "day": "Agosto 5 a las 19:00 pm",
+            "reminder": false
+    
+        },
+        {
+           "id": 4,
+            "text": "Leer mi libro favorito",
+            "day": "Agosto 5 a las 21:00 pm",
+           "reminder": false
+    
+        },
+        {
+           "id": 5,
+            "text": "Ir al Correo",
+            "day": "Agosto 6 a las 9:00 am",
+           "reminder": false    
+        }
+    
+    ]
+
+}

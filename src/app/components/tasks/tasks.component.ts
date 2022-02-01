@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-// Importando mi simulador de base de datos 
-import { Task } from '../../Task';
-import { TASKS } from '../../mock-tasks';
+import {TaskService} from '../../service/task.service';
+import {Task} from '../../Task';
 
 
 @Component({
@@ -13,12 +12,17 @@ import { TASKS } from '../../mock-tasks';
 export class TasksComponent implements OnInit {
 
   //Datos 
-  tasks: Task[] = TASKS;
+  tasks: Task[] = [];
 
 
-  constructor() { }
+  constructor( private taskService: TaskService ) { }
 
   ngOnInit(): void {
+// Like Promise ( esto es comolas promesas como el await )
+    this.taskService.getTasks().subscribe((tasks) =>{
+      this.tasks = tasks;
+    });
+
   }
 
 }
