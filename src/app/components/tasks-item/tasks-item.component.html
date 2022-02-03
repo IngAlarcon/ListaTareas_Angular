@@ -1,8 +1,15 @@
-<div class="task">
+<!-- [ngClass]="{reminder: task.reminder}" estoy usando angular class
+     si reminder: task.reminder=true se muestra todas las tareas en verde si es false no se muetra..
+    
+    -->
+<div class="task"
+    [ngClass]="{reminder: task.reminder}"
+    (click)="onToggle(task)">
     <h3>{{task.text}} 
         
         <fa-icon [icon]="faTimes" 
-                 [ngStyle]="{'color':'red'}">
+                 [ngStyle]="{'color':'red', 'float':'right'}"
+                 (click)="onDelete(task)">
         </fa-icon> </h3>
     
     <p> {{ task.day }} </p>

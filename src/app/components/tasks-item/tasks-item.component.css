@@ -10,3 +10,9 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Estilos del icono se implemeto en le html para usar ngStyle pero lo correcto es ponerlo aqui
+fa-icon{
+    color:red;
+    float: right;
+} */

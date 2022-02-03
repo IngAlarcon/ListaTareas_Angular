@@ -25,4 +25,25 @@ export class TasksComponent implements OnInit {
 
   }
 
+  deleteTask(task:Task){
+    //llamamos al servicio y deleteTask
+    this.taskService.deleteTask(task).subscribe(()=>{
+      //filtramos la tarea que borramos para imprimir lo que queda
+      this.tasks = this.tasks.filter(t => t.id !== task.id )
+
+    })
+  }
+
+  toggleReminder(task: Task){
+    console.log(task.reminder);
+    //Cambiando el valor desde el fond
+    task.reminder = !task.reminder;
+    console.log("estado actualizado",task.reminder);
+    //Cambiando en la base de datos el estado
+    //la logica lo estamos manejando en el componente y luego le pasamos al servicio la tarea ya actualizada para que la guarde
+    this.taskService.updateTaskReminder(task).subscribe();
+
+
+  }
+
 }
