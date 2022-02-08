@@ -13,7 +13,8 @@ Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cl
 - Routing
 - Binding
  
-Además se realizo el uso de Git y Github creando y mergeando ramas. También se armo un pequeño servidor para guardar datos y poder practicar de una forma más fácil simulando la parte del backend.
+Además se realizo el uso de Git y Github creando y mergeando ramas. También se armo un pequeño servidor para guardar datos y poder practicar de una forma más fácil simulando la parte del backend, se utilizo:
+- JSON Server
 
 ## Servidor de desarrollo Fron-end
 Ejecute ng serve -o para un servidor de desarrollo. Navegar a la url http://localhost:4200/. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
