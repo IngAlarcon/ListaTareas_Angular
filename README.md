@@ -16,6 +16,16 @@ Este proyecto se generó con [Angular CLI](https://github.com/angular/angular-cl
 Además se realizo el uso de Git y Github creando y mergeando ramas. También se armo un pequeño servidor para guardar datos y poder practicar de una forma más fácil simulando la parte del backend, se utilizo:
 - JSON Server
 
+## Si se clona o descarga el proyecto 
+Deve asegurase de tener instalados node y npm, para verificar si lo tiene ejecutar los siguentes comando en la terminal:
+- node -v
+- npm -v
+Si los tienes instalados, debes dirigirte a la carpeta raiz de tu proyecto con la consola y correr
+
+-npm install
+
+Esto generará la carpeta node_module para poder ejecuartar todo el proyecto
+
 ## Servidor de desarrollo Fron-end
 Ejecute ng serve -o para un servidor de desarrollo. Navegar a la url http://localhost:4200/. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 ## Servidor de desarrollo del Back-end
