@@ -29,18 +29,6 @@
       "day": "Mañana a la noche",
       "reminder": true,
       "id": 11
-    },
-    {
-      "text": "Comprar para la feria",
-      "day": "12/2/22 a las 10:00 am",
-      "reminder": false,
-      "id": 12
-    },
-    {
-      "text": "Comprar para la feria2",
-      "day": "12/2/22 a las 10:00 am2",
-      "reminder": true,
-      "id": 13
     }
   ]
 }
