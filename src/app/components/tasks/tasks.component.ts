@@ -35,15 +35,23 @@ export class TasksComponent implements OnInit {
   }
 
   toggleReminder(task: Task){
-    console.log(task.reminder);
+   // console.log(task.reminder);
     //Cambiando el valor desde el fond
     task.reminder = !task.reminder;
-    console.log("estado actualizado",task.reminder);
+   // console.log("estado actualizado",task.reminder);
     //Cambiando en la base de datos el estado
     //la logica lo estamos manejando en el componente y luego le pasamos al servicio la tarea ya actualizada para que la guarde
     this.taskService.updateTaskReminder(task).subscribe();
-
-
   }
+
+  //reciviendo la tarea
+  addTask(task: Task){
+  //  console.log(task);
+    //En el componete llamamos el servicio para pasar la tarea
+    this.taskService.addTask(task).subscribe((task) => {
+      this.tasks.push(task);
+    })
+  }
+
 
 }

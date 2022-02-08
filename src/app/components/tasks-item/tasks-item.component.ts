@@ -30,13 +30,13 @@ export class TasksItemComponent implements OnInit {
   onDelete(task: Task){
     //aqui estoy emitiendo esto se esta pasando al componete padre atraves del ouput 
     this.onDeleteTask.emit(task);
-    console.log("Tarea a borrar: ", task);
+    //console.log("Tarea a borrar: ", task);
   }
 
   onToggle(task: Task){
     
     this.onToggleReminder.emit(task);
-    console.log(task);
+   // console.log(task);
 
   }
 

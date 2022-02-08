@@ -10,12 +10,6 @@
       "id": 2,
       "text": "Terminar quinto modulo de Angular",
       "day": "Agosto 5 a las 12:00 am",
-      "reminder": true
-    },
-    {
-      "id": 4,
-      "text": "Leer mi libro favorito",
-      "day": "'Agosto 5 a las 21:00'",
       "reminder": false
     },
     {
@@ -25,10 +19,28 @@
       "reminder": true
     },
     {
-      "id": 6,
-      "text": "Leer mi libro favorito YYYYYY",
-      "day": "'Agosto 5 a las 21:00'",
-      "reminder": false
+      "text": "Netflix",
+      "day": "Toda la semana",
+      "reminder": false,
+      "id": 7
+    },
+    {
+      "text": "Empezar Modulo 4",
+      "day": "Mañana a la noche",
+      "reminder": true,
+      "id": 11
+    },
+    {
+      "text": "Comprar para la feria",
+      "day": "12/2/22 a las 10:00 am",
+      "reminder": false,
+      "id": 12
+    },
+    {
+      "text": "Comprar para la feria2",
+      "day": "12/2/22 a las 10:00 am2",
+      "reminder": true,
+      "id": 13
     }
   ]
 }

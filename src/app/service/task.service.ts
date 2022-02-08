@@ -45,4 +45,9 @@ export class TaskService {
 
   }
 
+  //RECIBE UNA TAREA PARA GUARDAR EN LA BASE DE Datos
+  addTask(task: Task): Observable<Task>{
+    return this.http.post<Task>(this.apiUrl, task, httpOptions);
+  }
+
 }
