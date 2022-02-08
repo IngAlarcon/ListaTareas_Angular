@@ -17,7 +17,7 @@ Además se realizo el uso de Git y Github creando y mergeando ramas. También se
 - JSON Server
 
 ## Si se clona o descarga el proyecto 
-Deve asegurase de tener instalados node y npm, para verificar si lo tiene ejecutar los siguentes comando en la terminal:
+Debe asegurase de tener instalados node y npm, para verificar si lo tiene ejecutar los siguentes comando en la terminal:
 - node -v
 - npm -v
 Si los tienes instalados, debes dirigirte a la carpeta raiz de tu proyecto con la consola y correr
